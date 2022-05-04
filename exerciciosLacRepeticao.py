@@ -12,8 +12,8 @@ while True:
 
     if opcao == 1:
         #Exercício 1
-        tabuada = 5
-        print("Tabuada do",tab)
+        tabuada = int(input("Insira um número inteiro que deseja saber a tabuada: "))
+        print("Tabuada do",tabuada)
         for x in range(10):
             print(tab,"x", x,"=",tabuada * x)
 
